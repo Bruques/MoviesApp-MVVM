@@ -15,6 +15,7 @@
 		0E28B726298B53A300982B08 /* MoviesApp_MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E28B725298B53A300982B08 /* MoviesApp_MVVMTests.swift */; };
 		0E28B730298B53A300982B08 /* MoviesApp_MVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E28B72F298B53A300982B08 /* MoviesApp_MVVMUITests.swift */; };
 		0E28B732298B53A300982B08 /* MoviesApp_MVVMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E28B731298B53A300982B08 /* MoviesApp_MVVMUITestsLaunchTests.swift */; };
+		0E28B746298B599900982B08 /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E28B745298B599900982B08 /* MovieDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0E28B72B298B53A300982B08 /* MoviesApp-MVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MoviesApp-MVVMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E28B72F298B53A300982B08 /* MoviesApp_MVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesApp_MVVMUITests.swift; sourceTree = "<group>"; };
 		0E28B731298B53A300982B08 /* MoviesApp_MVVMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesApp_MVVMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0E28B745298B599900982B08 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				0E28B712298B53A200982B08 /* MoviewDetailHomeViewController.swift */,
+				0E28B745298B599900982B08 /* MovieDetailView.swift */,
 			);
 			path = MovieDetail;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 			files = (
 				0E28B713298B53A200982B08 /* MoviewDetailHomeViewController.swift in Sources */,
 				0E28B70F298B53A200982B08 /* AppDelegate.swift in Sources */,
+				0E28B746298B599900982B08 /* MovieDetailView.swift in Sources */,
 				0E28B711298B53A200982B08 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
