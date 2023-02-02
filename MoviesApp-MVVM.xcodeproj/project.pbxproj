@@ -97,12 +97,12 @@
 		0E28B70D298B53A200982B08 /* MoviesApp-MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				0E28B70E298B53A200982B08 /* AppDelegate.swift */,
-				0E28B710298B53A200982B08 /* SceneDelegate.swift */,
-				0E28B712298B53A200982B08 /* MoviewDetailHomeViewController.swift */,
-				0E28B717298B53A300982B08 /* Assets.xcassets */,
-				0E28B719298B53A300982B08 /* LaunchScreen.storyboard */,
 				0E28B71C298B53A300982B08 /* Info.plist */,
+				0E28B73E298B573B00982B08 /* AppDelegate */,
+				0E28B741298B578600982B08 /* Resources */,
+				0E28B73F298B574A00982B08 /* Screens */,
+				0E28B743298B583700982B08 /* Model */,
+				0E28B744298B586300982B08 /* Service */,
 			);
 			path = "MoviesApp-MVVM";
 			sourceTree = "<group>";
@@ -122,6 +122,62 @@
 				0E28B731298B53A300982B08 /* MoviesApp_MVVMUITestsLaunchTests.swift */,
 			);
 			path = "MoviesApp-MVVMUITests";
+			sourceTree = "<group>";
+		};
+		0E28B73E298B573B00982B08 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0E28B70E298B53A200982B08 /* AppDelegate.swift */,
+				0E28B710298B53A200982B08 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0E28B73F298B574A00982B08 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				0E28B740298B575800982B08 /* Components */,
+				0E28B742298B57EE00982B08 /* MovieDetail */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		0E28B740298B575800982B08 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0E28B741298B578600982B08 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0E28B717298B53A300982B08 /* Assets.xcassets */,
+				0E28B719298B53A300982B08 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0E28B742298B57EE00982B08 /* MovieDetail */ = {
+			isa = PBXGroup;
+			children = (
+				0E28B712298B53A200982B08 /* MoviewDetailHomeViewController.swift */,
+			);
+			path = MovieDetail;
+			sourceTree = "<group>";
+		};
+		0E28B743298B583700982B08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E28B744298B586300982B08 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
